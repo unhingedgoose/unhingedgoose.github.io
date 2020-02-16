@@ -72,6 +72,7 @@ header div {
 
 .introimg img {
 	max-width: 990px;
+	margin: auto;
 }
 
 .container {
