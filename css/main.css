@@ -1,14 +1,19 @@
 body {
 	background: #91ffd4;
-	font-family: Helvetica;
+	font-family: Zing Rust Demo Base;
 	margin: 0;
 	color: #222;
 }
 
 header {
-	background: white;
-	border-bottom: 1px solid white;
+	background: #91ffd4;
+	border-bottom: 1px solid #91ffd4;
+	font-size: 36.5px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
 	width: 100vw;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 header img {
@@ -20,20 +25,25 @@ header div {
 	margin: auto;
 }
 
-a {
-	text-decoration:none;
-	color: #EB5F91;
-}
-
 /*dropdown header menu thing*/
 .dropdown {
 	position: relative;
 	display: inline-block;
 }
 
-.down img, .down span {
+.down {
 	display: inline-flex;
+	height: 100px;
+	cursor: pointer;
+}
+
+.down .arrow {
 	vertical-align: middle;
+	line-height: 100px;
+}
+
+.down span {
+	margin-left: 12px;
 }
 
 .dropdown-content {
@@ -44,7 +54,8 @@ a {
 	min-width: 270px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	padding: 12px;
-	z-index: 1;
+	z-index: 0;
+	font-size: 20px;
 }
 
 .dropdown a {
@@ -64,6 +75,11 @@ a {
 	max-width: 990px;
 }
 
+.container {
+	position: relative;
+	top: 150px;
+}
+
 .container .introimg {
 	margin: auto;
 	padding-top: 30px;
@@ -80,6 +96,26 @@ a {
 	font-size: 16px;
 	padding: 15px;
 	min-width: 300px;
+}
+
+.question {
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 200px;
+}
+
+.question h1 {
+	text-align: center;
+}
+
+form {
+	margin: 10%;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 footer img {
@@ -136,6 +172,10 @@ footer img h4 {
 	.text h1 {
 		font-size: 28px;
 		padding-left: 5%;
+	}
+	
+	.question {
+		margin: 5%;
 	}
 	
 	footer {
