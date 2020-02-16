@@ -167,6 +167,11 @@ footer img h4 {
 		width: 150px;
 	}
 	
+	.introimg {
+		position: relative;
+		top: 100px;
+	}
+	
 	footer {
 		padding-left: 5%;
 		padding-right: 5%;
