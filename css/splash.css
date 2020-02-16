@@ -1,11 +1,5 @@
-@font-face {
-	font-family: ZingRust;
-	src: url(zingrustdemo-base.otf);
-}
-
 body {
 	background: #91ffd4;
-	font-family: ZingRust;
 	margin: 0;
 	color: #222;
 }
